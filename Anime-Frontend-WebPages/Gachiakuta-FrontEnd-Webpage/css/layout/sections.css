@@ -1,0 +1,16 @@
+/* =========================
+   LAYOUT GROUPS
+========================= */
+.popular-elements,
+.story-elements,
+.protagonists-elements,
+.antagonists-elements {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+}
+
+
+

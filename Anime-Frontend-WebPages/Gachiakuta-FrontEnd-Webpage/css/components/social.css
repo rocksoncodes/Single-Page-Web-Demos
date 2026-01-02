@@ -1,0 +1,22 @@
+/* =========================
+   SOCIAL PROOF
+========================= */
+.social {
+    margin: 48px 0;
+}
+
+.social-elements {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.social-boxes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social i {
+    font-size: 22px;
+}

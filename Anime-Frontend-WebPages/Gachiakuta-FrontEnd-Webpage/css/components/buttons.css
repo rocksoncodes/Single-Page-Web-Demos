@@ -1,0 +1,19 @@
+/* =========================
+   BUTTONS
+========================= */
+.cta-button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #e5e5e5;
+    background: linear-gradient(135deg, #ff3b3b, #ba000c);
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    box-shadow: 0 0 15px rgba(255, 60, 60, 0.7);
+    transform: translateY(-2px);
+}
