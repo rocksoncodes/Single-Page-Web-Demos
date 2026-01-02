@@ -32,7 +32,7 @@ README.md
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rocksoncodes/Single-Page-Web-Demos.git
+git clone https://github.com/rocksoncodes/Single-Frontend-Pages.git
 ```
 
 2. Open any project folder and launch `index.html` in your browser.
