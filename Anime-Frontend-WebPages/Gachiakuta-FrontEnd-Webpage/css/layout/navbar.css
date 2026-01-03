@@ -5,18 +5,18 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 24px 64px;
+    padding: 1.5rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0.625rem);
     z-index: 1000;
 }
 
 .navbar ul {
     display: flex;
-    gap: 36px;
+    gap: 2.25rem;
     list-style: none;
 }
 
@@ -35,7 +35,7 @@
     display: none;
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #e5e5e5;
     cursor: pointer;
 }
