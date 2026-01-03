@@ -2,24 +2,24 @@
    TYPOGRAPHY
 ========================= */
 .section-header {
-    font-size: 56px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     letter-spacing: -0.02em;
-    margin: 100px 0 64px;
+    margin: 6.25rem 0 4rem;
 }
 
 h2 {
-    font-size: 28px;
-    margin-bottom: 12px;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.125rem;
     color: rgba(229, 229, 229, 0.84);
 }
 
 p {
-    font-size: 18px;
+    font-size: 1rem;
     color: rgba(229, 229, 229, 0.84);
 }

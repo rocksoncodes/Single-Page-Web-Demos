@@ -4,27 +4,23 @@
 .popular-elements,
 .story-elements {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 32px;
-    margin: 0 auto 96px;
-    padding-inline: 64px;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    margin: 0 auto 6rem;
+    padding-inline: 4rem;
 }
 
 .protagonists-elements,
 .antagonists-elements {
     display: flex;
     justify-content: flex-start;
-    padding-inline: 64px;
-    gap: 32px;
+    padding-inline: 4rem;
+    gap: 2rem;
     flex-wrap: wrap;
-    margin-bottom: 96px;
+    margin-bottom: 6rem;
 }
 
 .protagonists-elements,
 .antagonists-elements {
     justify-content: center;
 }
-
-
-
-
