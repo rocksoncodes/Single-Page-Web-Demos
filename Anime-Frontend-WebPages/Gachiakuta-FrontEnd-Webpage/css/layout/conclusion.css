@@ -8,6 +8,10 @@
     gap: 32px;
 }
 
+.conclusion h1 {
+    margin-bottom: 32px;
+}
+
 .conclusion-text {
     max-width: 1080px;
     text-align: center;

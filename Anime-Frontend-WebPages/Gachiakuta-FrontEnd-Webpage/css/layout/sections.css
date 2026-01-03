@@ -2,15 +2,29 @@
    LAYOUT GROUPS
 ========================= */
 .popular-elements,
-.story-elements,
+.story-elements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 32px;
+    margin: 0 auto 96px;
+    padding-inline: 64px;
+}
+
 .protagonists-elements,
 .antagonists-elements {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-inline: 64px;
     gap: 32px;
     flex-wrap: wrap;
     margin-bottom: 96px;
 }
+
+.protagonists-elements,
+.antagonists-elements {
+    justify-content: center;
+}
+
 
 
 

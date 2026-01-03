@@ -20,7 +20,8 @@
             <li><a href="#protagonists">PROTAGONISTS</a></li>
             <li><a href="#story">STORY ARCS</a></li>
         </ul>
-        <button class="cta-button">Get the Manga</button>
+        <button class="cta-button" id="nav-button">Get the Manga</button>
+        <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>
     </nav>
 
 
@@ -192,5 +193,14 @@
             <p style="text-align: center">•2026 Built by Michael Rockson</p>
         </div>
     </footer>
+
+    <script>
+        const toggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".navbar ul");
+
+        toggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
 </body>
 </html>

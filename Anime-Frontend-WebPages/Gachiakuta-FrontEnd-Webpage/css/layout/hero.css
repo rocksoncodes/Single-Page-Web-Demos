@@ -2,8 +2,9 @@
    HERO
 ========================= */
 .hero {
-    min-height: 100vh;
-    padding: 160px 64px 96px;
+    min-height: 100svh;
+    padding-block: clamp(72px, 10vw, 160px);
+    padding-inline: clamp(16px, 6vw, 64px);
 }
 
 .hero-content {
@@ -31,9 +32,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-
 .hero-content img {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1200px;
     border-radius: 12px;
 }
