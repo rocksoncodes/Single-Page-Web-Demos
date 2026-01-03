@@ -1,0 +1,28 @@
+@import "navbar.css";
+@import "hero.css";
+@import "about.css";
+@import "characters.css";
+@import "episodes.css";
+@import "manga.css";
+@import "conclusion.css";
+@import "footer.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container,
+.hero-section,
+.about-section,
+.character-section,
+.episode-section,
+.manga-section,
+.conclusion-section,
+.footer-container {
+    border-style: solid;
+}

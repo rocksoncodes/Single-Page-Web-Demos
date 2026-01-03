@@ -1,0 +1,21 @@
+/*
+=================
+NAVBAR STYLES
+=================
+*/
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.header-container nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header-container a {
+    text-decoration: none;
+}

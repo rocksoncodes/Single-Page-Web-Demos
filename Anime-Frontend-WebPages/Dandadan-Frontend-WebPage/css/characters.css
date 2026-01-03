@@ -1,0 +1,33 @@
+/*
+========================
+CHARACTER-SECTION STYLES
+========================
+*/
+
+.character-bio {
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+    padding: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.character-bio img {
+    width: 100%;
+    max-width: 240px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.character-text {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}

@@ -1,0 +1,34 @@
+/*
+================
+EPISODES STYLES
+================
+*/
+
+.episode-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    padding: 24px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.episodes-section h2 {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.episode-card {
+    border-style: solid;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.episode-card img {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}

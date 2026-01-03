@@ -1,0 +1,54 @@
+/*
+====================
+MANGA-SECTION STYLES
+====================
+*/
+
+.manga-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    padding: 24px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.manga-card {
+    border-style: solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.manga-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: fill;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+}
+
+.manga-text {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.manga-section h2 {
+    text-align: center;
+    margin: 16px;
+}
+
+.manga-card h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.manga-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0;
+}
